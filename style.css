@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#top-section {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+  background-image: url(./images/donation0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#top-text {
+  width: 550px;
+  text-align: center;
+}
+#top-text p {
+  margin-bottom: 20px;
+  color: white;
+}
+h1 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 12px;
+  color: #707070;
+}
+
+.common-button {
+  background-color: #ff5959;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* donate-today */
+
+#donate-today {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#donate-today-div {
+  width: 550px;
+}
+
+.amount-box {
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+#epecial-box {
+  border: 2px solid #ff5959;
+  color: #ff5959;
+  background-color: #ffd6d6;
+}
+
+#amount-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#donate-today-div button {
+  margin-top: 20px;
+}
+
+#donate-plan {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#plan-boxes {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-box {
+  width: 230px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.box-1 {
+  background-color: #edf5f6;
+}
+.box-2 {
+  background-color: #ffeeee;
+}
+.box-3 {
+  background-color: #fff4d6;
+}
+
+.plan-box img {
+  width: 45px;
+}
+
+.plan-box h4 {
+  padding: 15px 0px;
+}
+
+/* depend section  */
+.depend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.depent-text {
+  width: 340px;
+  padding: 40px 0px;
+}
+.depent-text p {
+  padding: 20px 0px;
+}
+.depend-img {
+  width: 300px;
+  height: 350px;
+}
+.depend-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* subscribe section  */
+#email-div {
+  width: 450px;
+  padding: 60px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  background-color: #fff4d6;
+  border-radius: 5px;
+}
+#subcribe-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#email-div {
+  display: flex;
+  justify-content: center;
+}
+#email-div input,
+button {
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font-size: 10px;
+}
+
+#email-div input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(225, 225, 225);
+  color: gray;
+  width: 200px;
+  padding-left: 10px;
+}
+
+#email-div button {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ff5959;
+  color: white;
+  width: 100px;
+}
+
+/* summary section */
+#summay {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+#twinty img {
+  width: 100px;
+  margin-right: 15px;
+}
+#twinty {
+  width: 600px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#twinty,
+#summay-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#summay-text p {
+  color: white;
+}
+
+#summay-text {
+  flex-wrap: wrap;
+  color: white;
+  width: 100%;
+  background-color: #ff5959;
+}
+
+.text-box {
+  text-align: center;
+  width: 150px;
+}
+/* footer section design  */
+#footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+i {
+  color: #ff5959;
+}
+
+#footer p {
+  font-size: 1px;
+  color: rgb(206, 196, 196);
+}
